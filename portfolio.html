@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>DevCard - Bootstrap 5 vCard &amp; Portfolio Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevCard Bootstrap 5 Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-7.css">
+	
+	<!-- Custom CSS --> 
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head> 
+
+<body>
+	
+	<header class="header text-center">	    
+		<div class="force-overflow">
+			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Ulrike Horn</a></h1>
+			
+			<nav class="navbar navbar-expand-lg navbar-dark" >
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div id="navigation" class="collapse navbar-collapse flex-column" >
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile_round.png" alt="image" >			
+						
+						<div class="bio mb-3">Hi, my name is Ulrike Horn and I'm a data scientist and researcher. Welcome to my personal website!</div><!--//bio-->
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item"><a href="https://www.linkedin.com/in/ulrike-horn-603527233/"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://github.com/ulrikehorn"><i class="fa-brands fa-github-alt fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://bsky.app/profile/ulrikehorn.bsky.social"><i class="fa-brands fa-bluesky fa-fw"></i></a></li>
+						</ul><!--//social-list-->
+						<hr> 
+					</div><!--//profile-section-->
+					
+					<ul class="navbar-nav flex-column text-start">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="publications.html"><i class="fas fa-book fa-fw me-2"></i>Publications</a>
+						</li>
+					</ul>
+	
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
+					    
+					    <input class="toggle" id="darkmode" type="checkbox">
+					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					    
+					</div><!--//dark-mode-toggle-->
+					
+				</div>
+			</nav>
+		</div><!--//force-overflow-->
+	</header>
+	    
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container text-center single-col-max-width">
+			    <h2 class="heading">Portfolio</h2>
+			    <div class="intro">
+			    <p>Welcome to my project portfolio. Here you can find a selection of my academic endeavours and side projects.</p>
+			    
+			    </div>			    
+			    
+		    </div><!--//container-->
+	    </section>
+	    <section class="projects-list px-3 py-5 p-md-5">
+		    <div class="container">
+			    <!-- <div class="text-center">
+				    <ul id="filters" class="filters mb-5 mx-auto   ps-0">
+		                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".webapp">We App</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".mobileapp">Mobile App</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".frontend">Frontend</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".backend">Backend</li>
+		            </ul>
+			    </div> -->
+	            
+			    <div class="project-cards row isotope">
+					<div class="isotope-item col-md-6 mb-5 mobileapp frontend">
+						<div class="card project-card">
+							<div class="row">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="assets/images/project/Heatpain/thumb.png" class="card-img" alt="image">
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="project/project_heatpain.html" class="theme-link">Heat pain in the spinal cord</a></h5>
+										<p class="card-text">Chronic pain affects millions, yet we still don't fully understand how pain signals travel through the spinal cord. This project uses ultra high field MRI to visualize those pathways in real time.</p>
+										<p class="card-text"><small class="text-muted">Topics: Pain, fMRI, Spinal Cord</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="project/project_heatpain.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project/project_heatpain.html">
+										<i class="fas fa-eye me-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 webapp frontend">	
+						<div class="card project-card">
+							<div class="row">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="assets/images/project/tsdcs/thumb.png" class="card-img" alt="image">
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="project/project_tsdcs.html" class="theme-link">Spinal cord stimulation</a></h5>
+										<p class="card-text">The spinal cord is a tiny powerhouse that shapes how we move, feel, and process pain. With transcutaneous spinal direct current stimulation (tsDCS), we can now try to non-invasively nudge its excitability — and explore whether this gentle electrical tuning changes spinal processing of pain reflexes in humans.</p>
+										<p class="card-text"><small class="text-muted">Topics: Pain, Reflexes, Spinal Cord</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="project/project_tsdcs.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project/project_tsdcs.html">
+										<i class="fas fa-eye me-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 mobileapp">
+						<div class="card project-card">
+							<div class="row">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="assets/images/project/Labsetup/thumb.png" class="card-img" alt="image">
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="project/project_labsetup.html" class="theme-link">Lab Setup</a></h5>
+										<p class="card-text">The lab started as a collection of devices with no shared language. I built the system that brought them together.</p>
+										<p class="card-text"><small class="text-muted">Topics: Hardware integration, multimodal pain stimulation</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="project/project_labsetup.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project/project_labsetup.html">
+										<i class="fas fa-eye me-2"></i>View Project
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					
+				</div><!--//row-->
+			
+		    </div>
+	    </section>
+	    
+	    <footer class="footer text-center py-4">
+			<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+		</footer>
+    
+    </div><!--//main-wrapper-->
+    
+    <!-- Javascript -->   
+    <script src="assets/plugins/popper.min.js"></script> 
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <!--Page Specific JS -->
+    <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script> 
+    
+    <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+    
+    <!-- Dark Mode -->
+	<script src="assets/plugins/js-cookie.min.js"></script>
+	<script src="assets/js/dark-mode.js"></script>
+
+
+</body>
+</html> 
+

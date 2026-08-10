@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>DevCard - Bootstrap 5 vCard &amp; Portfolio Template For Developers</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="DevCard Bootstrap 5 Template">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link rel="shortcut icon" href="favicon.ico"> 
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	
+	<!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+	
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme-7.css">
+
+	<!-- Custom CSS --> 
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head> 
+
+<body>
+	
+	<header class="header text-center">	    
+		<div class="force-overflow">
+			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Ulrike Horn</a></h1>
+			
+			<nav class="navbar navbar-expand-lg navbar-dark" >
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="navigation" class="collapse navbar-collapse flex-column" >
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile_round.png" alt="image" >			
+						
+						<div class="bio mb-3">Hi, my name is Ulrike Horn and I'm a data scientist and researcher. Welcome to my personal website!</div><!--//bio-->
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item"><a href="https://www.linkedin.com/in/ulrike-horn-603527233/"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://github.com/ulrikehorn"><i class="fa-brands fa-github-alt fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://bsky.app/profile/ulrikehorn.bsky.social"><i class="fa-brands fa-bluesky fa-fw"></i></a></li>
+						</ul><!--//social-list-->
+						<hr> 
+					</div><!--//profile-section-->
+					
+					<ul class="navbar-nav flex-column text-start">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="publications.html"><i class="fas fa-book fa-fw me-2"></i>Publications</a>
+						</li>
+					</ul>
+	
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
+					    
+					    <input class="toggle" id="darkmode" type="checkbox">
+					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					    
+					</div><!--//dark-mode-toggle-->
+					
+				</div>
+			</nav>
+		</div><!--//force-overflow-->
+	</header>
+	
+	<div class="main-wrapper">
+		<section class="cta-section theme-bg-light py-5">
+			<div class="container text-center single-col-max-width">
+				<h2 class="heading mb-3">Publications</h2>
+				<a class="btn btn-primary" href="https://orcid.org/0000-0001-9119-0468" target="_blank"><i class="fas fa-file-pdf me-2"></i>Latest list also available at ORCID</a>
+				
+			</div><!--//container-->
+		</section>
+		<div class="container resume-container px-3 px-lg-5">
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+				<div class="publication">
+					<div class="publication-title">Segmentation of spinal rootlets across MRI contrasts with RootletSeg</div>
+					<p>
+						<span class="authors">Krejčí, K., Chmelík, J., Bédard, S., Eippert, F., <b>Horn, U.</b>, Callot, V., Cohen-Adad, J., Valošek, J.</span><br>
+						<span class="journal">Scientific Reports, 16, 20366</span><br>
+						<span class="year">2026</span>
+					</p>
+					<a href="https://doi.org/10.1038/s41598-026-49164-0" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Krejci2026.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Monitoring morphometric drift in lifelong learning segmentation of the spinal cord</div>
+					<p>
+						<span class="authors">Naga Karthik, E., Bédard, S., Valošek, J., Aigner, C. S., Bannier, E., Bednařík, J., Callot, V., Combes, A., Curt, A., David, G., Eippert, F., Farner, L., Fehlings, M.G., Freund, P., Granberg, T., Granziera, C., <b>Horn, U.</b>, Horák, T., Humphreys, S., Hupp, M., Kerbrat, A., Kinany, N., Kolind, S., Kudlička, P., Lebret, A., Lee, L.E., Mainero, C., Martin, A.R., McGrath, M., Nair, G., O'Grady, K.P., Oh, J., Ouellette, R., Pfender, N., Pfyffer, D., Pradat, P.-F., Prat, A., Pravatà, E., Reich, D.S., Ricchi, I., Rotem-Kohavi, N., Schading-Sassenhausen, S., Seif, M., Smith, A., Smith, S.A., Sweeney, G., Tam, R., Traboulsee, A., Treaba, C.A., Tsagkas, C., Vavasour, Z., Van De Ville, D., Weber II, K.A., Chandar, S., Cohen-Adad, J.</span><br>
+						<span class="journal">Imaging Neuroscience, 4, IMAG.a.1105</span><br>
+						<span class="year">2026</span>
+					</p>
+					<a href="https://doi.org/10.1162/IMAG.a.1105" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/NagaKarthik2026.pdf" download>
+						PDF
+					</a>
+				</div>
+				
+				<div class="publication">
+					<div class="publication-title">Assessing adverse effects and unspecific effects of transcutaneous spinal direct current stimulation (tsDCS)</div>
+					<p>
+						<span class="authors">Zhao, H., <b>Horn, U.</b>, Freund, M., Bujanow, A., Grundlach, C., Hartwigsen, G., Eippert, F.</span><br>
+						<span class="journal">Imaging Neuroscience, 4: IMAG.a.1292</span><br>
+						<span class="year">2026</span>
+					</p>
+					<a href="https://doi.org/10.1162/IMAG.a.1292" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Zhao2026.pdf" download>
+						PDF
+					</a>
+					·
+					<a href="/project/project_tsdcs.html">
+						Project Page
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Ultra-high-field fMRI reveals layer-specific responses in the human spinal cord</div>
+					<p>
+						<span class="authors"><b>Horn, U.</b>, Vannesjo, S. J., Gross-Weege, N., Trampel, R., Revina, Y., Kaptan, M., Dabbagh, A., Beghini, L., Callot, V., Todd, A., Pine, K. J., Möller, H.E., Finsterbusch, J., Weiskopf, N., Eippert, F.</span><br>
+						<span class="journal">bioRxiv (Preprint)</span><br>
+						<span class="year">2025</span>
+					</p>
+					<a href="https://doi.org/10.1101/2025.07.17.665316" target="_blank">
+						Preprint link
+					</a>
+					·
+					<a href="assets/papers/Horn2025.pdf" download>
+						PDF
+					</a>
+					·
+					<a href="/project_heatpain.html">
+						Project Page
+					</a>
+				</div>
+				
+				
+				<div class="publication">
+					<div class="publication-title">Expectation effects on repetition suppression in nociception</div>
+					<p>
+						<span class="authors">Pohle, L.-M. G., Nickel, M. M., Nierula, B., Ploner, M., <b>Horn, U.</b>, Eippert, F.</span><br>
+						<span class="journal">Journal of Neurophysiology, 134(4), 1244-1256</span><br>
+						<span class="year">2025</span>
+					</p>
+					<a href="https://journals.physiology.org/doi/full/10.1152/jn.00359.2025" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Pohle2025.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Reliability of task-based fMRI in the dorsal horn of the human spinal cord</div>
+					<p>
+						<span class="authors">Dabbagh, A., <b>Horn, U.</b>, Kaptan, M., Mildner, T., Müller, R., Lepsien, J., Weiskopf, N., Brooks, J.C.W., Finsterbusch, J., Eippert, F.</span><br>
+						<span class="journal">Imaging Neuroscience, 2, imag-2-00273</span><br>
+						<span class="year">2024</span>
+					</p>
+					<a href="https://doi.org/10.1162/imag_a_00273" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Dabbagh2024.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">A multichannel electrophysiological approach to noninvasively and precisely record human spinal cord activity</div>
+					<p>
+						<span class="authors">Nierula, B., Stephani, T., Bailey, E., Kaptan, M., Pohle, L.-M. G., <b>Horn, U.</b>, Mouraux, A., Maess, B., Villringer, A., Curio, G., Nikulin, V.V., Eippert, F.</span><br>
+						<span class="journal">PLoS Biology, 22(10), e3002828</span><br>
+						<span class="year">2024</span>
+					</p>
+					<a href="https://doi.org/10.1371/journal.pbio.3002828" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Nierula2024.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Reliability of resting-state functional connectivity in the human spinal cord: Assessing the impact of distinct noise sources</div>
+					<p>
+						<span class="authors">Kaptan, M., <b>Horn, U.</b>, Vannesjo, S. J., Mildner, T., Weiskopf, N., Finsterbusch, J., Brooks, J.C.W., Eippert, F.</span><br>
+						<span class="journal">Neuroimage, 275, 120152</span><br>
+						<span class="year">2023</span>
+					</p>
+					<a href="https://doi.org/10.1016/j.neuroimage.2023.120152" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Kaptan2023.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Modulation of bodily response to chill stimuli by impaired structural connectivity of the left insula: a functional and lesion quantification study in stroke patients</div>
+					<p>
+						<span class="authors">Witt, L., Klepzig, K., von Sarnowski, B., <b>Horn, U.</b>, Domin, M., Hamm, A., Lotze, M.</span><br>
+						<span class="journal">European Journal of Neurology, 30(6):1706-1711</span><br>
+						<span class="year">2023</span>
+					</p>
+					<a href="https://doi.org/10.1111/ene.15771" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Witt2023.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Automated slice-specific z-shimming for functional magnetic resonance imaging of the human spinal cord</div>
+					<p>
+						<span class="authors">Kaptan, M., Vannesjo, S. J., Mildner, T., <b>Horn, U.</b>, Hartley-Davies, R., Oliva, V., Brooks, J.C.W., Weiskopf, N., Finsterbusch, J., Eippert, F.</span><br>
+						<span class="journal">Human Brain Mapping 43(18):5389-5407</span><br>
+						<span class="year">2022</span>
+					</p>
+					<a href="https://doi.org/10.1002/hbm.26018" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Kaptan2022.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">The neural computation of human prosocial choices in complex motivational states</div>
+					<p>
+						<span class="authors">Saulin, A., <b>Horn, U.</b>, Lotze, M., Kaiser, J., & Hein, G.</span><br>
+						<span class="journal">NeuroImage, 247, 118827</span><br>
+						<span class="year">2022</span>
+					</p>
+					<a href="https://doi.org/10.1016/j.neuroimage.2021.118827" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Saulin2022.pdf" download>
+						PDF
+					</a>
+				</div>
+				
+				<div class="publication">
+					<div class="publication-title">Brain imaging of chill reactions to pleasant and unpleasant sounds</div>
+					<p>
+						<span class="authors">Klepzig, K., <b>Horn, U.</b>, König, J., Holtz, K., Wendt, J., Hamm, A., Lotze, M.</span><br>
+						<span class="journal">Behavioural Brain Research, 380, 112417</span><br>
+						<span class="year">2020</span>
+					</p>
+					<a href="https://doi.org/10.1016/j.bbr.2019.112417" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Klepzig2020.pdf" download>
+						PDF
+					</a>
+				</div>
+				
+				<div class="publication">
+					<div class="publication-title">Differences in neuronal representation of mental rotation in patients with complex regional pain syndrome and healthy controls</div>
+					<p>
+						<span class="authors">Kohler, M., Strauss, S., <b>Horn, U.</b>, Langner, I., Usichenko, T., Neumann, N., Lotze, M.</span><br>
+						<span class="journal">The Journal of Pain, 20(8), 898-907</span><br>
+						<span class="year">2019</span>
+					</p>
+					<a href="https://doi.org/10.1016/j.jpain.2019.01.330" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Kohler2019.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Prognosestellungen in der Neurorehabilitation</div>
+					<p>
+						<span class="authors"><b>Horn, U.</b>, Lotze, M.</span><br>
+						<span class="journal">neuroreha, 11(02), 53-58</span><br>
+						<span class="year">2019</span>
+					</p>
+					<a href="https://doi.org/10.1055/a-0868-0598" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Horn2019.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Motor imagery training: Kinesthetic imagery strategy and inferior parietal fMRI activation</div>
+					<p>
+						<span class="authors">Lebon, F., <b>Horn, U.</b>, Domin, M., Lotze, M.</span><br>
+						<span class="journal">Human Brain Mapping, 39(4), 1805-1813</span><br>
+						<span class="year">2018</span>
+					</p>
+					<a href="https://doi.org/10.1002/hbm.23956" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Lebon2018.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">The role of left hemispheric structures for emotional processing as a monitor of bodily reaction and felt chill - A case-control functional imaging study</div>
+					<p>
+						<span class="authors">Grunkina, V., <b>Horn, U.</b>, Holtz, K., Klepzig, K., Neubert, J., Domin, M., Hamm, A., Lotze, M.</span><br>
+						<span class="journal">Frontiers in human neuroscience, 10, 670</span><br>
+						<span class="year">2017</span>
+					</p>
+					<a href="https://doi.org/10.3389/fnhum.2016.00670" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Grunkina2017.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Connectivity-based predictions of hand motor outcome for patients at the subacute stage after stroke</div>
+					<p>
+						<span class="authors">Lindow, J., Domin, M., Grothe, M., <b>Horn, U.</b>, Eickhoff, S.B., Lotze, M.</span><br>
+						<span class="journal">Frontiers in human neuroscience, 10, 101</span><br>
+						<span class="year">2016</span>
+					</p>
+					<a href="https://doi.org/10.3389/fnhum.2016.00101" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Lindow2016.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">Increased ventral premotor cortex recruitment after arm training in an fMRI study with subacute stroke patients</div>
+					<p>
+						<span class="authors"><b>Horn, U.</b>, Roschka, S., Eyme, K., Walz, A.-D., Platz, T., & Lotze, M.</span><br>
+						<span class="journal">Behavioural Brain Research, 308, 152-159</span><br>
+						<span class="year">2016</span>
+					</p>
+					<a href="https://doi.org/10.1016/j.bbr.2016.04.040" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Horn2016.pdf" download>
+						PDF
+					</a>
+				</div>
+
+				<div class="publication">
+					<div class="publication-title">MRI biomarkers for hand-motor outcome prediction and therapy monitoring following stroke</div>
+					<p>
+						<span class="authors"><b>Horn, U.</b>, Grothe, M., Lotze, M.</span><br>
+						<span class="journal">Neural Plasticity, 2016(1), 9265621</span><br>
+						<span class="year">2016</span>
+					</p>
+					<a href="https://doi.org/10.1155/2016/9265621" target="_blank">
+						Journal link
+					</a>
+					·
+					<a href="assets/papers/Horn2016Review.pdf" download>
+						PDF
+					</a>
+				</div>
+
+			</article>
+		</div><!--//container-->
+				
+		<footer class="footer text-center py-4">
+			<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+		</footer>
+				
+		</div><!--//main-wrapper-->
+
+		<!-- Javascript -->          
+		<script src="assets/plugins/popper.min.js"></script> 
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		
+		<!-- Dark Mode -->
+		<script src="assets/plugins/js-cookie.min.js"></script>
+		<script src="assets/js/dark-mode.js"></script>    
+		
+
+	</body>
+	</html> 
+
