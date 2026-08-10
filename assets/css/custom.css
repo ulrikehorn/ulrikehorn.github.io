@@ -1,0 +1,433 @@
+.tech-tag {
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #24292f;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.tech-tag:hover {
+    background-color: #eaeef2;
+    border-color: #b9c1c9;
+}
+
+.tech-item {
+    color: #070707;
+    transition: color 0.2s ease, transform 0.2s ease;
+    cursor: default;
+}
+
+.tech-item:hover {
+    color: var(--bs-primary);
+    transform: scale(1.05);
+}
+
+.dark-mode .tech-tag {
+    background-color: #2f3b55; /* your dark blue tone */
+    border-color: #4a5670;
+    color: #ffffff; /* strong contrast */
+}
+
+.dark-mode .tech-tag:hover {
+    background-color: #3a4766;
+    border-color: #5a6785;
+}
+
+.dark-mode .tech-item {
+    color: #ffffff; /* readable on dark blue */
+}
+
+.dark-mode .tech-item:hover {
+    color: var(--bs-primary); /* your theme’s accent still works */
+}
+
+.value-item {
+    cursor: default;
+    transition: color 0.2s ease;
+}
+
+.value-icon {
+    font-size: 2.2rem;
+    color: #6c757d;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.value-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: #6c757d;
+    transition: color 0.2s ease;
+}
+
+.value-text {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    color: #6c757d;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+/* Hover effects */
+.value-item:hover .value-icon,
+.value-item:hover .value-title {
+    color: var(--bs-primary);
+    transform: scale(1.05);
+}
+
+.value-item:hover .value-text {
+    opacity: 1;
+    max-height: 200px; /* enough space for one sentence */
+}
+
+/* Normalize blog thumbnails */
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* result cards text was too strong */
+.metric-data {
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.project-meta .btn span.text-muted {
+    margin-top: 0.5rem !important;
+}
+
+/* Load the fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* Section spacing + bottom border */
+.research-section {
+  padding: 4rem 0; /* equivalent to py-16 */
+}
+
+/* Container layout */
+.research-container {
+  max-width: 42rem; /* ~max-w-2xl */
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Label */
+.research-label {
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 500;   /* font-medium */
+  letter-spacing: 0.15em; /* tracking-widest */
+  color: #6B7280; /* muted-foreground */
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+/* Quote */
+.research-quote {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2.5rem; /* text-4xl */
+  line-height: 1.2;  /* leading-snug */
+  color: #141624;
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+/* Larger screens */
+@media (min-width: 1024px) {
+  .research-quote {
+    font-size: 3rem; /* lg:text-5xl */
+  }
+}
+
+/* Paragraph */
+.research-text {
+  font-weight: 300;
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.6; /* leading-relaxed */
+  color: #6B7280; /* muted-foreground */
+  max-width: 36rem; /* max-w-lg */
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode .research-label {
+  color: #d1d5db; /* soft light gray, readable on dark blue */
+}
+
+.dark-mode .research-quote {
+  color: #ffffff; /* strong contrast for the main quote */
+}
+
+.dark-mode .research-text {
+  color: #cbd5e1; /* slightly muted light gray for body text */
+}
+
+.challenge-soft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.soft-panel {
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #5D6BA7; /* main color */
+  background: #E8ECF7; /* soft tint */
+  border-radius: 0.5rem;
+}
+
+.soft-panel h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3E4A78; /* darker structural shade */
+}
+
+.soft-panel p {
+  margin: 0;
+  color: #6B7280; /* neutral muted text */
+  line-height: 1.55;
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode .soft-panel {
+  background: #2f3b55; /* deepened indigo-blue tint */
+  border-left-color: #5D6BA7; /* keep your main accent */
+}
+
+.dark-mode .soft-panel h3 {
+  color: #e2e8f0; /* soft light gray, readable but not harsh */
+}
+
+.dark-mode .soft-panel p {
+  color: #cbd5e1; /* muted light gray for body text */
+}
+
+.stimulation-tags {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.stim-tag {
+  flex: 1; /* each box takes equal width */
+  background: rgba(93, 107, 167, 0.12); /* subtle tint of your main color */
+  border: 1px solid rgba(93, 107, 167, 0.35); /* soft border */
+  color: #3E4A78; /* dark shade from your palette */
+  padding: 0.75rem 0.5rem;
+  border-radius: 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode .stim-tag {
+  background: rgba(93, 107, 167, 0.25); /* deeper tint for dark backgrounds */
+  border-color: rgba(93, 107, 167, 0.55); /* slightly stronger border */
+  color: #ffffff; /* strong contrast */
+}
+
+.dark-mode .stim-tag:hover {
+  background: rgba(93, 107, 167, 0.35); /* subtle lift */
+  border-color: rgba(93, 107, 167, 0.75);
+}
+
+/* Grid layout */
+.connector-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Two columns */
+.connector-card {
+  position: relative;
+  flex: 1 1 calc(50% - 20px);
+  border-radius: 14px;
+  padding: 24px;
+  min-height: 200px;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  transition: all 0.25s ease;
+  border-right: 6px solid transparent; /* color accent */;
+  border-right-color: #5D6BA7;
+  background: linear-gradient(135deg, #f7f9ff, #eef3ff);
+}
+
+/* Hover effect */
+.connector-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode .connector-card {
+  background: linear-gradient(135deg, #2f3b55, #3a4766); /* deepened gradient */
+  border-right-color: #9ea6ca; /* lighter indigo accent for contrast */
+  box-shadow: none; /* avoid glowing effect on dark background */
+}
+
+.dark-mode .connector-card:hover {
+  box-shadow: 0 6px 14px rgba(0,0,0,0.35); /* subtle lift */
+}
+
+.dark-mode .connector-card h3 {
+  color: #e2e8f0; /* soft light gray */
+}
+
+.dark-mode .connector-card p {
+  color: #cbd5e1; /* muted light gray */
+}
+
+/* Title */
+.connector-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Icon in top-right corner */
+.connector-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 42px;
+  height: 42px;
+  opacity: 0.85;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .connector-card {
+    flex: 1 1 100%;
+  }
+}
+
+.device-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.device-card {
+  flex: 1 1 calc(50% - 20px);
+  background: #f7f7f9;
+  border-radius: 14px;
+  padding: 24px;
+  min-height: 280px;
+  position: relative;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  transition: all 0.25s ease;
+}
+
+.device-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode .device-card {
+  background: #2f3b55; /* deepened blue-gray tint */
+  box-shadow: none; /* avoid glowing effect */
+}
+
+.dark-mode .device-card:hover {
+  box-shadow: 0 8px 18px rgba(0,0,0,0.35); /* subtle lift on dark background */
+}
+
+.dark-mode .device-card h3 {
+  color: #e2e8f0; /* soft light gray */
+}
+
+.dark-mode .device-card p,
+.dark-mode .device-card li,
+.dark-mode .device-card span {
+  color: #cbd5e1; /* muted light gray for body text */
+}
+
+.device-title {
+  font-size: 1.5rem;     /* smaller title */
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.device-icon {
+  width: 66px;
+  height: 46px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  opacity: 0.9;
+}
+
+.toggle-btn {
+  margin-top: 10px;
+  background: #e0e0ff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toggle-section {
+  display: none;
+  margin-top: 12px;
+}
+
+.gui-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .device-card {
+    flex: 1 1 100%;
+  }
+}
+
+.resume-section-heading + .list-unstyled li {
+    font-size: 0.8rem;
+}
+
+.publication {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 2rem;
+}
+.publication-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+.journal {
+    font-style: italic;
+}
+.year {
+    font-weight: bold;
+}
+.publication:last-child {
+    border-bottom: none;
+}
+.dark-mode .img-bg {
+    background: #ffffff;
+}
+
+
+
+
+
+
