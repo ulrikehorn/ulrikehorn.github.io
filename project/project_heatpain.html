@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>DevCard - Bootstrap 5 vCard &amp; Portfolio Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevCard Bootstrap 5 Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
+    <!-- FontAwesome JS -->
+    <script defer src="/assets/fontawesome/js/all.js"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="/assets/css/theme-7.css">
+
+	<!-- Custom CSS --> 
+	<link rel="stylesheet" href="/assets/css/custom.css">
+</head> 
+
+
+</head> 
+
+<body>
+	
+	<header class="header text-center">	    
+		<div class="force-overflow">
+			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Ulrike Horn</a></h1>
+			
+			<nav class="navbar navbar-expand-lg navbar-dark" >
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div id="navigation" class="collapse navbar-collapse flex-column" >
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile_round.png" alt="image" >			
+						
+						<div class="bio mb-3">Hi, my name is Ulrike Horn and I'm a data scientist and researcher. Welcome to my personal website!</div><!--//bio-->
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item"><a href="https://www.linkedin.com/in/ulrike-horn-603527233/"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://github.com/ulrikehorn"><i class="fa-brands fa-github-alt fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://bsky.app/profile/ulrikehorn.bsky.social"><i class="fa-brands fa-bluesky fa-fw"></i></a></li>
+						</ul><!--//social-list-->
+						<hr> 
+					</div><!--//profile-section-->
+					
+					<ul class="navbar-nav flex-column text-start">
+						<li class="nav-item">
+							<a class="nav-link" href="/index.html"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/publications.html"><i class="fas fa-book fa-fw me-2"></i>Publications</a>
+						</li>
+					</ul>
+	
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
+					    
+					    <input class="toggle" id="darkmode" type="checkbox">
+					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					    
+					</div><!--//dark-mode-toggle-->
+					
+				</div>
+			</nav>
+		</div><!--//force-overflow-->
+	</header>
+	    
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container single-col-max-width">
+			    <h2 class="heading text-center">Heat pain in the spinal cord</h2>
+			    <div class="project-intro text-center">
+					<p class="mb-0 lead">Chronic pain affects millions, yet we still don't fully understand how pain signals travel through the spinal cord. This project uses ultra high field MRI to visualize those pathways with unprecedented detail.</p>
+				</div>
+			    
+		    </div><!--//container-->
+	    </section>
+		<figure class="blog-banner" style="max-height:400px; overflow:hidden;">
+			<img class="img-fluid" src="/assets/images/project/Heatpain/banner_wide.png" alt="image of a spinal cord with a heat signal travelling through">
+		</figure>
+	    <section class="project px-3 py-5 p-md-5">
+		    <div class="container">
+			    
+				<div class="project-sections py-5">
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">The spinal cord: the body's overlooked pain processor</h3>
+					    <p>Most people are familiar with brain scans, but far fewer know that we can also measure activity in the <b>spinal cord</b>, the highway that carries every pain signal from the body to the brain. For pain research, this region is crucial: when you touch something painfully hot, the signal doesn't just travel through the spinal cord, it's <b>actively shaped and modulated</b> there.</p>
+					</div><!--//project-section-->
+					
+					<div style="
+                    transform: scale(0.75);
+                    transform-origin: top left;
+                    width: 133.33%;
+                    height: 133.33%;
+                    overflow: hidden;
+                    ">
+                    <iframe 
+                        src="/assets/figma/pain_signalling/index.html"
+                        style="width:100%; height:56vh; border:none; border-radius:12px;">
+                    </iframe>
+                    </div>
+
+
+					<div class="project-section mb-5">
+						<h3 class="project-section-title">The Challenge</h3>
+
+						<div class="row align-items-start mt-4">
+							<div class="col-12 col-lg-8">
+								<p>
+									The spinal cord is tiny, surrounded by bone, and constantly moving with every breath and heartbeat.</p>
+									<p>The current level of detail that standard MRI scanners with <b>3 Tesla</b> can provide is barely enough to even
+									disentangle motor and sensory regions within the spinal cord. </p>
+									<p>To study spinal cord pain processing,
+									we need imaging technology that is both <b>ultra precise and powerful enough</b> to distinguish
+									details only millimeters apart.
+								</p>
+								<p>But at the start of the project task-based <b>7 Tesla</b> fMRI of the spinal cord has not been done successfully yet.</p>
+							</div>
+
+							<div class="col-12 col-lg-4 ps-lg-4">
+								<img class="img-fluid rounded"
+									style="max-height:280px"
+									src="/assets/images/project/Heatpain/spinalcord_size.png"
+									alt="image">
+								<div class="mt-2 text-muted small">
+									Graphic by F. Eippert
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title">Approach</h3>
+						<p></p>
+						<ul class="mb-5">
+						<li class="mb-2">We worked with a <b>7 Tesla MRI scanner</b>, which allows for much finer detail than standard clinical scanners.</li>
+						<li class="mb-2">Because no suitable spinal cord coil exists at this field strength, we used a <b>custom-built coil</b> designed specifically for this project.</li>
+						<li class="mb-2">Participants received precisely controlled <b>heat stimuli</b> on the skin to trigger real pain signals.</li>
+						<li class="mb-2">We applied <b>advanced imaging and preprocessing techniques</b> to capture clean spinal cord activity despite artifacts, breathing and movement.</li>
+						<li class="mb-2">We created a <b>high resolution spinal cord atlas</b> to pinpoint exactly where these responses occurred.</li>
+						<li class="mb-2">Finally, we measured <b>how the spinal cord reacts</b> to incoming pain signals in real time.</li>
+						</ul>
+					</div>
+
+					<div class="project-section mb-5">
+						<h3 class="project-section-title">What I contributed</h3>
+						<div class="row mt-4 mb-5">
+							<!-- Column 1 -->
+							<div class="col-12 col-lg-6">
+								<ul class="mb-0">
+									<li class="mb-3">
+										I designed and programmed the entire experimental protocol, including thermode control and its integration with PsychoPy.
+									</li>
+									<li class="mb-3">
+										I conducted a large pre-study with 62 participants and a main study with 41 measurements — more than 100 spinal cord MRI sessions in total.
+									</li>
+									<li class="mb-3">
+										I preprocessed all MRI data using FSL and the Spinal Cord Toolbox, building reproducible bash workflows for motion correction and denoising.
+									</li>
+								</ul>
+							</div> <!--// Column 1 -->
+
+							<!-- Column 2 -->
+							<div class="col-12 col-lg-6">
+								<ul class="mb-0">
+									<li class="mb-3">
+										I developed analysis pipelines and visualized the results in Python.
+									</li>
+									<li class="mb-3">
+										I wrote the manuscript, including the literature review and interpretation of the findings.
+									</li>
+									<li class="mb-3">
+										I created publication-ready figures in Adobe Illustrator.
+									</li>
+									<li class="mb-3">
+										I documented the full workflow with reproducible code on GitHub.
+									</li>
+								</ul>
+							</div> <!--// Column 2 -->
+						</div> <!--// Row -->
+
+						<div class="tech-stack my-4">
+							<h5 class="mb-3">Research & Analysis Stack</h5>
+							<div class="d-flex flex-wrap gap-3">
+								<span class="tech-item"><i class="fas fa-flask me-1"></i>PsychoPy</span>
+								<span class="tech-item"><i class="fas fa-brain me-1"></i>FSL</span>
+								<span class="tech-item"><i class="fa-solid fa-person-rays"></i>Spinal Cord Toolbox</span>
+								<span class="tech-item"><i class="fas fa-terminal me-1"></i>Bash</span>
+								<span class="tech-item"><i class="fab fa-python me-1"></i>Python</span>
+								<span class="tech-item"><i class="fas fa-chart-bar me-1"></i>Seaborn</span>
+								<span class="tech-item"><i class="fas fa-pencil-ruler me-1"></i>Adobe Illustrator</span>
+								<span class="tech-item"><i class="fab fa-github me-1"></i>GitHub</span>
+							</div>
+						</div> <!--//tech-stack-->
+					</div> <!--//project-section-->
+
+					<div class="project-section mb-5">
+						<h3 class="project-section-title">What we found</h3>
+					    <p>We were able to measure clear pain related activity in the <b>dorsal horn</b>, the part of the spinal cord where incoming nociceptive signals are processed. These responses showed a consistent spatial pattern and were strong enough to detect not only across the group, but even in individual participants.</p>
+					    <p>To understand how the spinal cord handles different aspects of heat pain, we tested <b>two components</b> of the response by analyzing different time windows of the same stimulus: a fast, <b>phasic</b> response during the first three seconds, and a slower, <b>tonic</b> response during the full 30 second heat period.</p>
+						<p>By separating these two components, we could see <b>where</b> in the dorsal horn each type of signal was strongest. The phasic response — the quick reaction to the onset of heat — was most prominent in the <b>superficial layers</b> of the dorsal horn. The tonic response — the sustained signal during ongoing heat — appeared more strongly in the <b>deep layers</b>.</p>
+						<p>This layer specific pattern shows that the spinal cord organizes incoming pain information by depth: fast, sharp signals at the surface; slower, ongoing signals deeper inside. Demonstrating this separation clearly with human spinal fMRI provides a new way to study early pain processing.</p>
+						<div class="row mt-5">
+						    <div class="col-12 col-lg-12 mb-5">
+							    <img class="img-fluid rounded" src="/assets/images/project/Heatpain/result.png" alt="image">
+						    </div>
+					    </div>
+					</div><!--//project-section-->
+
+					
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">Why this is exciting</h3>
+						<div class="metrics mb-4">
+						<div class="row">
+
+						<!-- Result 1 -->
+						<div class="metric col-9 col-xl-4 mb-3">
+						<div class="inner p-3 theme-bg-light">
+						<div class="metric-name">Breakthrough</div>
+						<div class="metric-data mb-2">Successful spinal fMRI study at 7 Tesla</div>
+						<div class="metric-desc">Demonstrates that ultra-high-field imaging of the human spinal cord activation is feasible.</div>
+						</div>
+						</div>
+
+						<!-- Result 2 -->
+						<div class="metric col-9 col-xl-4 mb-3">
+						<div class="inner p-3 theme-bg-light">
+						<div class="metric-name">Novel Finding</div>
+						<div class="metric-data mb-2">Layer-specific response separation  </div>
+						<div class="metric-desc">Reveals distinct superficial vs. deep dorsal horn activity patterns in humans.</div>
+						</div>
+						</div>
+
+						<!-- Result 3 -->
+						<div class="metric col-9 col-xl-4 mb-3">
+						<div class="inner p-3 theme-bg-light">
+						<div class="metric-name">Impact</div>
+						<div class="metric-data mb-2">New insights into pain processing</div>
+						<div class="metric-desc">Opens the door to more precise diagnostics and targeted treatments for chronic pain.</div>
+						</div>
+						</div>
+
+						</div>
+						</div>
+
+					</div><!--//project-section-->
+
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">Resources and further reading</h3>
+						<div class="project-meta theme-bg-light p-4">
+						<div class="row align-items-stretch">
+
+							<!-- LEFT: buttons -->
+							<div class="col-md-7">
+							<div class="d-flex flex-column gap-5">
+
+								<a href="https://github.com/eippertlab/spinalcord-fmri-7T" target="_blank" class="btn btn-outline-primary btn-lg w-100 text-start">
+								<strong class="d-block">GitHub Repository</strong>
+								<span class="text-muted d-block">Full analysis pipeline and code</span>
+								</a>
+
+								<a href="https://www.biorxiv.org/content/10.1101/2025.07.17.665316v1" target="_blank" class="btn btn-outline-primary btn-lg w-100 text-start">
+								<strong class="d-block">Preprint</strong>
+								<span class="text-muted d-block">Full manuscript and supplementary material</span>
+								</a>
+
+								<a href="https://bsky.app/profile/ulrikehorn.bsky.social/post/3lxc2seygec2y" target="_blank" class="btn btn-outline-primary btn-lg w-100 text-start">
+								<strong class="d-block">BlueSky Post</strong>
+								<span class="text-muted d-block">Accessible explanation of the study</span>
+								</a>
+
+							</div>
+							</div>
+
+							<!-- RIGHT: image -->
+							<div class="col-md-5 col-lg-5 col-xxl-3 d-none d-md-block">
+							<img class="project-thumb img-fluid rounded h-100 object-fit-cover" src="/assets/images/project/Heatpain/more_results.png" alt="">
+							</div>
+
+						</div> <!--//row-->
+						</div> <!--//project-meta-->
+					</div> <!--//project-section-->
+
+					
+					
+				</div><!--//project-sections-->
+		    </div>
+	    </section>
+	    
+	    <footer class="footer text-center py-4">
+			<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+		</footer>
+    
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript -->          
+    <script src="/assets/plugins/popper.min.js"></script> 
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <!-- Dark Mode -->
+	<script src="/assets/plugins/js-cookie.min.js"></script>
+	<script src="/assets/js/dark-mode.js"></script>  
+    
+
+</body>
+</html> 
+

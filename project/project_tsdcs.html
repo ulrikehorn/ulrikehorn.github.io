@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>DevCard - Bootstrap 5 vCard &amp; Portfolio Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevCard Bootstrap 5 Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
+    <!-- FontAwesome JS -->
+    <script defer src="/assets/fontawesome/js/all.js"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="/assets/css/theme-7.css">
+
+	<!-- Custom CSS --> 
+	<link rel="stylesheet" href="/assets/css/custom.css">
+</head> 
+
+
+</head> 
+
+<body>
+	
+	<header class="header text-center">	    
+		<div class="force-overflow">
+			<h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Ulrike Horn</a></h1>
+			
+			<nav class="navbar navbar-expand-lg navbar-dark" >
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div id="navigation" class="collapse navbar-collapse flex-column" >
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile_round.png" alt="image" >			
+						
+						<div class="bio mb-3">Hi, my name is Ulrike Horn and I'm a data scientist and researcher. Welcome to my personal website!</div><!--//bio-->
+						<ul class="social-list list-inline py-2 mx-auto">
+							<li class="list-inline-item"><a href="https://www.linkedin.com/in/ulrike-horn-603527233/"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://github.com/ulrikehorn"><i class="fa-brands fa-github-alt fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://bsky.app/profile/ulrikehorn.bsky.social"><i class="fa-brands fa-bluesky fa-fw"></i></a></li>
+						</ul><!--//social-list-->
+						<hr> 
+					</div><!--//profile-section-->
+					
+					<ul class="navbar-nav flex-column text-start">
+						<li class="nav-item">
+							<a class="nav-link" href="/index.html"><i class="fas fa-user fa-fw me-2"></i>About Me<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/publications.html"><i class="fas fa-book fa-fw me-2"></i>Publications</a>
+						</li>
+					</ul>
+	
+					<div class="dark-mode-toggle text-center w-100">
+						<hr class="mb-4">
+					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
+					    
+					    <input class="toggle" id="darkmode" type="checkbox">
+					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+					    
+					</div><!--//dark-mode-toggle-->
+					
+				</div>
+			</nav>
+		</div><!--//force-overflow-->
+	</header>
+	    
+    <div class="main-wrapper">
+	    <section class="cta-section theme-bg-light py-5">
+		    <div class="container single-col-max-width">
+			    <h2 class="heading text-center">Spinal cord stimulation</h2>
+			    <div class="project-intro text-center">
+					<p class="mb-0 lead">The spinal cord is a tiny powerhouse that shapes how we move, feel, and process pain. With transcutaneous spinal direct current stimulation (tsDCS), we can now try to non-invasively nudge its excitability — and explore whether this gentle electrical tuning changes spinal processing of pain reflexes in humans.</p>
+				</div>
+			    
+		    </div><!--//container-->
+	    </section>
+		<figure class="blog-banner" style="max-height:400px; overflow:hidden;">
+			<img class="img-fluid" src="/assets/images/project/tsdcs/banner.png" alt="image of a spinal cord with a soft glow indicating some energy applied">
+		</figure>
+	    <section class="project px-3 py-5 p-md-5">
+		    <div class="container">
+			    
+				<div class="project-sections py-5">
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">The spinal cord's role in reflexes</h3>
+					    <div class="row align-items-start mt-4">
+							<div class="col-12 col-lg-6">
+								<p>The withdrawal reflex is one of the spinal cord's most impressive built in defense mechanisms. Long before the brain has time to interpret danger, the spinal cord detects a harmful stimulus and triggers a <b>rapid, protective response</b>. When pain receptors in the skin sense something hot or sharp, their signal travels straight into the dorsal horn — where spinal circuits immediately engage motor neurons that contract the muscles and pull the limb away, often in under half a second.</p>
+							</div>
+
+							<div class="col-12 col-lg-6 ps-lg-4">
+								<img class="img-fluid rounded"
+									style="max-height:250px"
+									src="/assets/images/project/tsdcs/reflex.jpg"
+									alt="image">
+							</div> <!--// Column 2 -->
+						</div> <!--// Row -->
+					</div><!--//project-section-->
+
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">How to measure this</h3>
+								<p>In research, this reflex can be measured in a controlled setup: a brief <b>painful electrical pulse</b> to the limb elicits a characteristic flinch, and electrodes placed on the muscles <b>capture the timing and strength</b> of this spinally mediated response.</p>
+
+								<div class="img-bg">
+									<img class="img-fluid rounded"
+										style="max-height:280px"
+										src="/assets/images/project/tsdcs/NFR_amplitudes.png"
+										alt="image">
+								</div>
+
+								<div class="mt-2 text-muted small">
+									The measured voltage at the muscle reflects the strength of the reflex. Whether a reflex is detected is often determined in comparison to a baseline window (light blue) before the stimulus. The reflex window (dark blue) is where the reflex response is expected to occur. Graphic adapted from Rhudy & France (2007) Pain.
+								</div>
+					</div><!--//project-section-->
+
+					<section class="research-section">
+					<div class="research-container">
+						<div class="research-label">RESEARCH QUESTION</div>
+
+						<blockquote class="research-quote">
+						What if we could gently modulate this reflex right at the spinal cord itself?
+						</blockquote>
+
+						<p class="research-text">
+						By applying a mild electrical current over the spinal segment where the reflex is generated,
+						could we change how strongly the reflex responds — or the threshold at which it is triggered?
+						</p>
+					</div>
+					</section>
+
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">The method</h3>
+							<div class="row align-items-start mt-4">
+							<div class="col-12 col-lg-7">
+								<p>That idea is at the core of <b>transcutaneous spinal direct current stimulation (tsDCS)</b>.</p>
+								<p>tsDCS involves consistent application of a direct current over the spinal cord through a pair of electrodes, one placed over the targeted spinal cord segment and the other (reference) over an area distal to the spine (e.g., arm, shoulder, hip, abdomen). </p>
+								<p>In comparison to other techniques like TMS the current is not strong enough to activate neurons but rather <b>modulates spontaneous neuronal activity</b>.</p>
+								<p>This project tests whether such <b>non-invasive stimulation</b> over lumbar parts of the spine can influence the withdrawal reflex in the leg and reveal how spinal processing changes under such modulation.</p>
+								<div class="stimulation-tags mt-4">
+								<div class="stim-tag">20 min</div>
+								<div class="stim-tag">2.5 mA</div>
+								<div class="stim-tag">Segment T12</div>
+								</div>
+							</div>
+
+							<div class="col-12 col-lg-3 ps-lg-4">
+								<img class="img-fluid rounded"
+									style="max-height:368px"
+									src="/assets/images/project/tsdcs/tsdcs_schema_new.png"
+									alt="image">
+								<div class="mt-2 text-muted small">
+									Both anode and cathode electrode patches are connected to a stimulator device.
+								</div>
+							</div> <!--// Column 2 -->
+						</div> <!--// Row -->	
+					</div><!--//project-section-->
+
+					<section class="challenge-soft">
+						<h3 class="project-section-title">The challenge</h3>
+						<div class="soft-panel">
+							<h3>Real-time reflex tracking</h3>
+							<p>Reflex thresholds differ strongly between individuals, so we need live measurement to adjust stimulation intensity.</p>
+						</div>
+
+						<div class="soft-panel">
+							<h3>Safety and side effect control</h3>
+							<p>Any tsDCS modulation must be tested against sham (a control condition that mimics the real stimulation but has no active effect) and remain free of unwanted sensations or confounds.</p>
+						</div>
+
+						<div class="soft-panel">
+							<h3>Strict blinding</h3>
+							<p>To avoid placebo or experimenter bias, both participants and researchers must be fully blinded to the stimulation condition.</p>
+						</div>
+					</section>
+
+					<div class="project-section mb-5">
+					<h3 class="project-section-title mb-3">Solution: closed-loop reflex analysis</h3>
+						<p>To accomodate the need for <b>real-time reflex tracking</b>, I developed a closed-loop analysis framework.</p>
+						<p>The experimenter starts a trial by selecting a certain intensity for the electrical shock.</p>
+						<p>This stimulus is automatically applied and its reflex measured. An ethernet connection from the recording computer to another computer enables the <b>real-time data exchange and analysis</b>.</p>
+						<p>Based on the result, whether a reflex has been evoked or not, the experimenter can adjust the intensity for the next trial. My <b>automated GUI</b> also makes suggestions for the next step and thereby implements a staircase procedure.</p>
+
+						<div class="row mt-4 mb-5">
+							<!-- Column 1 -->
+							<div class="col-12 col-lg-8">
+								<img class="img-fluid rounded"
+									style="max-height:368px"
+									src="/assets/images/project/tsdcs/reflex_loop.png"
+									alt="image">
+								<div class="mt-2 text-muted small">
+									<a href="https://github.com/ulrikehorn/TSDCS_online_analysis" target="_blank" rel="noopener noreferrer">
+										Schema online reflex analysis (Code available on Github)
+									</a>
+								</div>
+							</div> <!--// Column 1 -->
+							<!-- Column 2 -->
+							<div class="col-12 col-lg-4">
+								<img class="img-fluid rounded"
+									style="max-height:368px"
+									src="/assets/images/project/tsdcs/GUI.png"
+									alt="image">
+								<div class="mt-2 text-muted small">
+									<a href="https://github.com/ulrikehorn/TSDCS_online_analysis" target="_blank" rel="noopener noreferrer">
+										Graphical user interface for real-time reflex analysis (Code available on Github)
+									</a>
+								</div>
+							</div> <!--// Column 2 -->
+						</div> <!--// Row -->
+					</div> <!--//project-section-->
+
+					<div class="project-section mb-5">
+						<h3 class="project-section-title">What I contributed</h3>
+						<div class="row mt-4 mb-5">
+							<!-- Column 1 -->
+							<div class="col-12 col-lg-6">
+								<ul class="mb-0">
+									<li class="mb-3">
+										<b>Programmed</b> the full experimental protocol (stimulus control, real-time reflex tracking, custom GUI).
+									</li>
+									<li class="mb-3">
+										<b>Created</b> detailed hardware and wiring schematics so that others could reproduce and operate the setup.
+									</li>
+									<li class="mb-3">
+										<b>Supervised</b> student assistants who measured a complete second study and ensured consistent data quality.
+									</li>
+								</ul>
+							</div> <!--// Column 1 -->
+
+							<!-- Column 2 -->
+							<div class="col-12 col-lg-6">
+								<ul class="mb-0">
+									<li class="mb-3">
+										<b>Analyzed</b> heart rate, breathing rate, skin conductance, and pain ratings.
+									</li>
+									<li class="mb-3">
+										<b>Solved</b> real-world data issues, including corrupted physiological traces.
+									</li>
+									<li class="mb-3">
+										<b>Visualized</b> results in Python and documented the workflow on GitHub.
+									</li>
+								</ul>
+							</div> <!--// Column 2 -->
+						</div> <!--// Row -->
+
+						<div class="tech-stack my-4">
+							<h5 class="mb-3">Research & Analysis Stack</h5>
+							<div class="d-flex flex-wrap gap-3">
+								<span class="tech-item"><i class="fas fa-flask me-1"></i>PsychoPy</span>
+								<span class="tech-item"><i class="fas fa-brain me-1"></i>Tkinter</span>
+								<span class="tech-item"><i class="fab fa-python me-1"></i>Python</span>
+								<span class="tech-item"><i class="fas fa-chart-bar me-1"></i>Seaborn</span>
+								<span class="tech-item"><i class="fab fa-github me-1"></i>GitHub</span>
+							</div>
+						</div> <!--//tech-stack-->
+					</div> <!--//project-section-->
+
+					<div class="project-section mb-5">
+						<h3 class="project-section-title">First results</h3>
+						<p>A central question in any neuromodulation study is whether the stimulation is <b>safe and fully blindable</b>. Our first results show that this is indeed the case — a major success for the project.</p>
+					    <p>Participants reported mild sensations such as burning, tingling, or itching, but these effects were <b>equally common in both active and control conditions</b>. This is exactly what we want: when side effects do not differ, participants cannot use them to infer the stimulation condition. In line with this, their guesses about whether they received active stimulation remained at chance level, confirming <b>effective participant blinding</b>.</p>
+						<p>The only observable difference was a slightly stronger skin redness under the stimulation electrodes after active stimulation. To preserve full blinding, the experimenter performing reflex measurements must therefore not see the skin. We implemented a simple and robust solution: one researcher administered the stimulation, while another conducted all reflex measurements and participant interactions. This ensured <b>complete experimenter blinding</b> as well.</p>
+						<p>We also monitored unspecific physiological measures such as heart rate and breathing rate. Even subtle changes could introduce confounds, but <b>no stimulation related differences</b> were detected. This further strengthens the conclusion that tsDCS did not alter general physiological state.</p>
+						<p>Taken together, these findings demonstrate that <b>tsDCS can be applied safely, comfortably, and under strict double blinding</b> - exactly the conditions required for reliable mechanistic studies of spinal processing.</p>
+						
+					</div><!--//project-section-->
+
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">Next steps</h3>
+						<p>With the protocol validated, we are now ready to test whether tsDCS can indeed modulate the withdrawal reflex. This will be the focus of a follow-up study.</p>
+						<p>We will also explore whether other tsDCS configurations, like a modulation of cervical instead of lumbar spine, can modulate pain perception in healthy participants.</p>
+					</div><!--//project-section-->
+
+					<section class="research-section">
+					<div class="research-container">
+						<blockquote class="research-quote">
+						To be continued...
+						</blockquote>
+						</div>
+					</section>
+
+					<div class="project-section mb-5">
+					    <h3 class="project-section-title mb-3">Resources and further reading</h3>
+						<div class="project-meta theme-bg-light p-4">
+						<div class="row align-items-stretch">
+
+							<!-- LEFT: buttons -->
+							<div class="col-md-7">
+							<div class="d-flex flex-column gap-5">
+
+								<a href="https://github.com/ulrikehorn/TSDCS_online_analysis" target="_blank" class="btn btn-outline-primary btn-lg w-100 text-start">
+								<strong class="d-block">GitHub Repository for real-time reflex analysis</strong>
+								<span class="text-muted d-block">Code to replicate our setup</span>
+								</a>
+
+								<a href="https://github.com/eippertlab/tsdcs-sideeffects" target="_blank" class="btn btn-outline-primary btn-lg w-100 text-start">
+								<strong class="d-block">Github Repository for side effects analysis</strong>
+								<span class="text-muted d-block">Full analysis code and workflow</span>
+								</a>
+
+								<a href="https://direct.mit.edu/imag/article/doi/10.1162/IMAG.a.1292/137228/Assessing-adverse-effects-and-unspecific-effects" target="_blank" class="btn btn-outline-primary btn-lg w-100 text-start">
+								<strong class="d-block">Published paper about side effects</strong>
+								<span class="text-muted d-block">Publication about the first results of the study</span>
+								</a>
+
+							</div>
+							</div>
+
+							<!-- RIGHT: image -->
+							<div class="col-md-5 col-lg-5 col-xxl-3 d-none d-md-block">
+							<img class="project-thumb img-fluid rounded h-100 object-fit-cover" src="/assets/images/project/tsdcs/side_effects.png" alt="">
+							</div>
+
+						</div> <!--//row-->
+						</div> <!--//project-meta-->
+					</div> <!--//project-section-->
+
+					
+					
+				</div><!--//project-sections-->
+		    </div>
+	    </section>
+	    
+	    <footer class="footer text-center py-4">
+			<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+		</footer>
+    
+    </div><!--//main-wrapper-->
+
+    <!-- Javascript -->          
+    <script src="/assets/plugins/popper.min.js"></script> 
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    
+    <!-- Dark Mode -->
+	<script src="/assets/plugins/js-cookie.min.js"></script>
+	<script src="/assets/js/dark-mode.js"></script> 
+    
+
+</body>
+</html> 
+
